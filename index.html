@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include the globals.js file -->
+    <script src="globals.js"></script>
+    <title>Your Static Website - Home</title>
+</head>
+<body>
+
+    <header>
+        <!-- Display the value of the siteName variable -->
+        <h1 id="siteName"></h1>
+        <script>
+            // Set the content of the h1 element with the site name
+            document.getElementById("siteName").innerText = siteName;
+        </script>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>This is the home section of my website.</p>
+        </section>
+
+    </main>
+</body>
+</html>
